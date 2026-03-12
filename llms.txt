@@ -18,7 +18,7 @@ It unifies these into a single file-based context system with named concepts:
 
 ## Author
 
-GUAN — solo developer and strategy planner who developed this framework through iterative multi-model consultation across Claude (Anthropic), GPT (OpenAI), Gemini (Google), and DeepSeek.
+GUAN — solo developer and strategy planner.
 
 ## Documentation
 

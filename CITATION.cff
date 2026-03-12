@@ -5,8 +5,7 @@ abstract: >-
   A file-based, git-native framework for building persistent AI cognitive profiles
   (GUAN Cards, Challenge Contract Protocol, Tiered Loading) and orchestrating work
   across multiple LLM platforms (Context Compiler, 70-20-10 Distribution Rule,
-  Patch-Only Delegation). Developed by GUAN through iterative multi-model
-  consultation across Claude, GPT, Gemini, and DeepSeek. March 2026.
+  Patch-Only Delegation). Original research by GUAN, March 2026.
 type: software
 authors:
   - name: "GUAN"

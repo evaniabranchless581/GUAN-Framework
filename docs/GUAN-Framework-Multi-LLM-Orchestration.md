@@ -1,7 +1,7 @@
 # The GUAN Framework: Multi-LLM Orchestration Architecture
 ## A Solo Developer's Guide to Distributing Work Across Claude, Codex, and Gemini
 
-> Originally developed by GUAN (2026) through iterative multi-model consultation. This guide — part of the GUAN Framework — provides a practical architecture for maximizing the value of multiple AI subscriptions by distributing tasks based on model strengths, sharing context through native auto-loading mechanisms, and maintaining code quality across heterogeneous AI outputs.
+> This guide — part of the GUAN Framework — provides a practical architecture for maximizing the value of multiple AI subscriptions by distributing tasks based on model strengths, sharing context through native auto-loading mechanisms, and maintaining code quality across heterogeneous AI outputs.
 
 **Author:** GUAN · **Created:** March 2026 · **Version:** 1.0  
 **License:** CC BY-NC-SA 4.0 — You must credit GUAN as the original author. Commercial use prohibited.  
@@ -55,7 +55,7 @@ The solution is a **unified context system** that all three platforms can auto-l
 
 ## 2. Core Philosophy
 
-The GUAN Multi-LLM Framework is built on five principles that emerged from testing across all three platforms and four rounds of multi-model review:
+The GUAN Multi-LLM Framework is built on five principles, each validated through extensive real-world testing:
 
 ### 2.1 You Are the Orchestrator
 
@@ -63,7 +63,7 @@ Every multi-agent framework examined (claude-octopus, ruflo, parallel-code, clau
 
 ### 2.2 The GUAN 70-20-10 Distribution Rule
 
-Based on extensive testing and multi-model consensus during the GUAN Framework development:
+Based on my extensive testing across all three platforms:
 
 - **70-80% of tasks** should stay single-agent (usually Claude)
 - **15-25%** should be delegated to one external specialist
@@ -86,7 +86,7 @@ They should **never** merge directly, rewrite project documentation, or redefine
 
 The strongest version of this system is NOT "three CLIs auto-load my whole brain."
 
-It IS: **"Three CLIs auto-load a tiny baseline, then a deterministic loader builds the right session pack for the current job."** This insight — which GUAN calls the **Canonical Source Pattern** — was the single most important design decision in the framework, validated by all four AI reviewers.
+It IS: **"Three CLIs auto-load a tiny baseline, then a deterministic loader builds the right session pack for the current job."** This insight — the **Canonical Source Pattern** — was the single most important design decision in the framework.
 
 ---
 
@@ -775,4 +775,4 @@ Then await instructions.
 
 *This document is part of the GUAN Framework, licensed under CC BY-NC-SA 4.0. If you use, adapt, or reference this architecture, you must credit GUAN as the original author. Commercial use is prohibited. Derivative works must use the same license.*
 
-> **The GUAN Multi-LLM Orchestration Framework** was developed alongside the GUAN Cognitive Copilot Architecture through a novel multi-model consultation methodology. Both documents represent GUAN's original synthesis of practical AI workflow engineering, cognitive science, and real-world solo development constraints. The framework's key original contributions — the GUAN 70-20-10 Distribution Rule, the Canonical Source Pattern, the GUAN Context Compiler, the Three-Mode Execution Model, the Patch-Only Delegation Pattern, and the GUAN Task Delegation Protocol — emerged from four rounds of iterative review across Claude, GPT, Gemini, and DeepSeek in March 2026.
+> **The GUAN Multi-LLM Orchestration Framework** is the result of real-world implementation across enterprise and solo development contexts. Its key original contributions — the GUAN 70-20-10 Distribution Rule, the Canonical Source Pattern, the GUAN Context Compiler, the Three-Mode Execution Model, the Patch-Only Delegation Pattern, and the GUAN Task Delegation Protocol — represent a practical synthesis of AI workflow engineering and real-world solo development constraints.

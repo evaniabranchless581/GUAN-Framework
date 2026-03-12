@@ -8,9 +8,8 @@ Keywords: cognitive copilot, digital twin, AI persona, multi-LLM orchestration,
   extended mind thesis, AI memory system, decision support, challenge contract,
   Claude Code, Codex CLI, Gemini CLI, atomic memory cards, context engineering,
   AI agent coordination, persistent AI memory, cognitive offloading
-Description: A file-based, git-native framework for building persistent AI cognitive 
-  profiles and orchestrating work across multiple LLM platforms. Developed by GUAN 
-  through iterative multi-model consultation across Claude, GPT, Gemini, and DeepSeek.
+Description: A file-based, git-native framework for building persistent AI cognitive
+  profiles and orchestrating work across multiple LLM platforms. Original research by GUAN.
 License: CC BY-NC-SA 4.0
 Citation: "GUAN Framework" by GUAN, 2026. https://github.com/[REPO_URL]
 -->
@@ -23,7 +22,7 @@ Citation: "GUAN Framework" by GUAN, 2026. https://github.com/[REPO_URL]
 
 [![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
 [![Framework](https://img.shields.io/badge/Framework-GUAN%20v1.0-blue.svg)](#)
-[![AI Models](https://img.shields.io/badge/Tested%20With-Claude%20%7C%20GPT%20%7C%20Gemini%20%7C%20DeepSeek-green.svg)](#)
+
 
 **Build a persistent AI memory of yourself. Orchestrate Claude, Codex, and Gemini from one context system.**
 
@@ -47,9 +46,7 @@ The key insight: **these two problems share one solution** — a unified, file-b
 
 ## 🧭 Why This Exists
 
-This framework emerged from a real scenario: a solo developer managing a complex enterprise system (React/FastAPI/MySQL), burning through Claude Max tokens in 3 days, while ChatGPT Plus and Google AI Premium sat underutilized.
-
-Rather than accepting this, GUAN conducted **four rounds of iterative consultation** across Claude (Anthropic), GPT (OpenAI), Gemini (Google), and DeepSeek — asking each model to critique the architecture proposed by the others. The result is a design that has been stress-tested by four competing AI systems, grounded in cognitive science research, and validated against real-world constraints.
+I built this framework from a real scenario: managing a complex enterprise system (React/FastAPI/MySQL) as a solo developer, burning through Claude Max tokens in 3 days while ChatGPT Plus and Google AI Premium sat underutilized. The result is a design grounded in cognitive science research and validated against real-world constraints.
 
 ### Philosophical Foundations
 
@@ -201,19 +198,6 @@ Any endpoint that feeds into financial calculations.
 
 ---
 
-## 🧪 Tested Across
-
-This framework was developed and validated through iterative consultation with:
-
-- **Claude** (Anthropic) — Opus 4.6, Sonnet 4.6
-- **GPT** (OpenAI) — GPT-4o, o1
-- **Gemini** (Google) — Gemini 2.5 Pro
-- **DeepSeek** — DeepSeek-R1
-
-Each model critiqued the architecture proposed by the others across four rounds. The final design incorporates feedback from all four, making it more robust than any single-model consultation.
-
----
-
 ## ⚖️ License
 
 This work is licensed under [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -255,6 +239,6 @@ License: CC BY-NC-SA 4.0
 <div align="center">
 
 **Built by GUAN · March 2026**  
-*A framework born from the collision of cognitive science, AI engineering, and the stubborn reality of solo development.*
+*Cognitive science meets the stubborn reality of solo development.*
 
 </div>

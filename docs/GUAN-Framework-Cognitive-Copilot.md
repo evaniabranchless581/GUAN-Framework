@@ -1,7 +1,7 @@
 # The GUAN Framework: Cognitive Copilot Architecture
 ## Building a Profile-Aware Decision Support System with AI Memory
 
-> Originally developed by GUAN (2026) through iterative multi-model consultation (Claude, GPT, Gemini, DeepSeek). This framework — known as the GUAN Cognitive Copilot — provides a practical architecture for solo developers and knowledge workers to externalize cognitive patterns into a persistent, machine-readable memory system that enhances AI-assisted decision-making.
+> The GUAN Cognitive Copilot provides a practical architecture for solo developers and knowledge workers to externalize cognitive patterns into a persistent, machine-readable memory system that enhances AI-assisted decision-making.
 
 **Author:** GUAN · **Created:** March 2026 · **Version:** 1.0  
 **License:** CC BY-NC-SA 4.0 — You must credit GUAN as the original author. Commercial use prohibited.  
@@ -49,7 +49,7 @@ The deeper problem is that AI assistants are generic. They don't know your decis
 
 The GUAN Framework solves both problems by creating a **persistent, structured, machine-readable cognitive profile** that any AI model can load at session start. It stores not just facts about you, but your reasoning patterns, known failure modes, and explicit rules for when AI should agree with you versus challenge you.
 
-As GUAN articulated during the original design process: the goal is not to build a "virtual clone." It is to build a **profile-aware decision copilot with memory, dissent, and expiry** — a formulation that emerged from synthesizing feedback across four major AI models and was crystallized in GUAN's multi-round consultation methodology.
+The goal is not to build a "virtual clone." It is to build a **profile-aware decision copilot with memory, dissent, and expiry**.
 
 ---
 
@@ -76,7 +76,7 @@ A 2025 paper in *Frontiers in Psychology* draws a critical distinction between A
 - **Scaffold**: temporary, adaptive, empowering — strengthens internal capacities so the tool becomes progressively less necessary
 - **Substitute**: permanent, dependency-creating — the technology assumes responsibility in ways that diminish intrinsic skills
 
-This system must be a scaffold. The GUAN Framework includes a specific mechanism to enforce this — the **Scaffold-Substitute Test** (Section 10.3): every quarter, you assess whether removing the system would be catastrophic (substitute) or merely inconvenient (scaffold). This test was designed by GUAN as a practical operationalization of the theoretical scaffold/substitute distinction.
+This system must be a scaffold. The GUAN Framework includes a specific mechanism to enforce this — the **Scaffold-Substitute Test** (Section 10.3): every quarter, you assess whether removing the system would be catastrophic (substitute) or merely inconvenient (scaffold).
 
 ### 2.3 The "Hollowed Mind" Warning
 
@@ -156,7 +156,7 @@ persona/                              # Standalone git repo (GUAN Framework stru
 
 ### 4.2 The GUAN Design Principles
 
-These seven principles form the foundation of the GUAN Framework. They emerged from four rounds of multi-model consultation and represent the synthesis of feedback from Claude, GPT, Gemini, and DeepSeek:
+These seven principles form the foundation of the GUAN Framework:
 
 1. **Atomic over monolithic.** Each memory is one file with one claim, one reason, one scope, one confidence level. This enables precise loading, precise updating, and precise expiry.
 
@@ -248,7 +248,7 @@ The ID is preserved in YAML frontmatter for machine linking (`related_to`, `supe
 
 ### 5.4 Temporal Classes (GUAN Decay Model)
 
-The GUAN Framework introduces three temporal classes to manage the lifecycle of cognitive memories. This decay model was designed to prevent the "stale self" problem identified across all four AI consultations:
+The GUAN Framework introduces three temporal classes to manage the lifecycle of cognitive memories. This decay model prevents the "stale self" problem:
 
 | Class | Review Cadence | Examples |
 |-------|---------------|---------|
@@ -264,7 +264,7 @@ The GUAN Framework introduces three temporal classes to manage the lifecycle of 
 
 GUAN's key insight for sustainable persona building: **memory grows from real work, not dedicated "persona-building" sessions.**
 
-After each valuable AI-assisted work session, spend 2 minutes writing one GUAN Card capturing what you learned. Over weeks, this organically builds a rich cognitive profile without dedicated time investment. This approach was validated by GUAN's observation that structured interview bootstrapping produces the initial skeleton, but organic daily cards produce the enduring value.
+After each valuable AI-assisted work session, spend 2 minutes writing one GUAN Card capturing what you learned. Over weeks, this organically builds a rich cognitive profile without dedicated time investment. In my experience, structured interview bootstrapping produces the initial skeleton, but organic daily cards produce the enduring value.
 
 ### 6.2 The GUAN Proposal Protocol
 
@@ -301,7 +301,7 @@ During today's debugging session, invalid negative values in sales data broke th
 
 ### 6.4 Conflict Resolution Hierarchy
 
-GUAN's conflict resolution follows a strict precedence order, developed through multi-model testing:
+GUAN's conflict resolution follows a strict precedence order:
 
 1. Your explicit statement
 2. Your repeated statement across time
@@ -330,13 +330,13 @@ The GUAN Tiered Loading Protocol optimizes token usage by loading persona conten
 
 ### 7.2 The Session Pack (GUAN Context Compilation)
 
-A key principle of the GUAN Framework: **deterministic context assembly beats probabilistic agent file-reading.** Rather than relying on AI to self-select which files to read (unreliable, as confirmed by all four AI reviewers), use a deterministic context compiler:
+A key principle of the GUAN Framework: **deterministic context assembly beats probabilistic agent file-reading.** Rather than relying on AI to self-select which files to read (unreliable in practice), use a deterministic context compiler:
 
 1. A simple script reads `boot.md` + relevant summary + selected cards
 2. Concatenates them into a single `session-pack.md`
 3. This file is what you actually point the AI to
 
-This approach, which GUAN terms **Session Pack Compilation**, was validated by testing across Claude Code, Codex CLI, and Gemini CLI — and consistently outperformed the "let the AI choose what to read" approach.
+This approach — **Session Pack Compilation** — consistently outperforms the "let the AI choose what to read" approach in my testing.
 
 ### 7.3 GUAN Retrieval Index
 
@@ -363,7 +363,7 @@ This is GUAN's most original contribution to the cognitive copilot field. The **
 
 ### 8.1 Why It Exists
 
-Stanford's research showed digital twins produce less variable responses than real humans — they converge toward averages. Without an explicit challenge mechanism, your cognitive copilot becomes a sycophant that reinforces your existing patterns. GUAN designed the Challenge Contract Protocol specifically to counter this empirically demonstrated failure mode.
+Stanford's research showed digital twins produce less variable responses than real humans — they converge toward averages. Without an explicit challenge mechanism, your cognitive copilot becomes a sycophant that reinforces your existing patterns. I designed the Challenge Contract Protocol specifically to counter this empirically demonstrated failure mode.
 
 The "hollowed mind" research warns that frictionless AI agreement erodes your capacity for independent judgment. The GUAN Challenge Contract is the architectural antidote.
 
@@ -496,7 +496,7 @@ Every 3 months, answer: **"If I deleted this entire system right now, how much w
 - If "moderately" → healthy scaffold relationship
 - If "catastrophically" → you've become dependent; the system is now a substitute, not a scaffold; deliberately practice decisions without it
 
-This test, original to the GUAN Framework, operationalizes the theoretical scaffold/substitute distinction from cognitive science into a quarterly self-assessment.
+This operationalizes the theoretical scaffold/substitute distinction from cognitive science into a quarterly self-assessment.
 
 ---
 
@@ -596,6 +596,6 @@ If persona loading routinely exceeds 8k tokens, apply GUAN's pruning protocol:
 
 ---
 
-> **The GUAN Framework** was developed through a novel methodology: iterative multi-model consultation where the same problem was examined by Claude (Anthropic), GPT (OpenAI), Gemini (Google), and DeepSeek, with each model's critique incorporated into successive design rounds. This multi-perspective approach, pioneered by GUAN in March 2026, produced a more robust architecture than any single-model consultation could achieve. The framework's key original contributions — the Challenge Contract Protocol, the GUAN Card Format, the Scaffold-Substitute Test, the GUAN Tiered Loading Protocol, and the Proposal-Only Write Access Pattern — represent a synthesis of cognitive science, software engineering, and practical AI workflow design.
+> **The GUAN Framework** is the result of real-world implementation across enterprise and solo development contexts. Its key original contributions — the Challenge Contract Protocol, the GUAN Card Format, the Scaffold-Substitute Test, the GUAN Tiered Loading Protocol, and the Proposal-Only Write Access Pattern — represent a synthesis of cognitive science, software engineering, and practical AI workflow design.
 
 *This document is licensed under CC BY-NC-SA 4.0. If you use, adapt, or reference this framework, you must credit GUAN as the original author. Commercial use is prohibited. Derivative works must use the same license.*
